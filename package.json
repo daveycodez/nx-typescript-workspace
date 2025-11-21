@@ -1,0 +1,19 @@
+{
+  "author": "daveycodez",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "nx run-many -t dev",
+    "build": "nx run-many -t build"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@biomejs/biome": "2.3.6",
+    "@nx/js": "22.1.0",
+    "nx": "22.1.0",
+    "typescript": "^5.9.3"
+  }
+}
